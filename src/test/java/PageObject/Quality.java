@@ -33,18 +33,17 @@ public class Quality {
 		waitUtilsZ = new waitUtilsZ(ldriver);
 		commonclick = new CommonUtils(ldriver);
 	}
-
-	@FindBy(xpath = "//span[contains(text(),'Quality')]")
-	// waitUtils.waitForElementVisibility(ClickOnNPR, 10); // Wait for 10 seconds
-
+	/*
+	 *  Author: Omkar Yadav
+	 *  Change:Quality Case Creation
+	 *  Description:
+	 */
+	@FindBy(xpath = "//span[@class='slds-form-element__label'][normalize-space()='Quality']/..//span[@class='slds-radio_faux']")
 	WebElement SelectServiceTypeQuality;
-
 	@FindBy(xpath = "//div[@aria-label='Return Reason']//lightning-base-combobox-item[@role='option']")
 	WebElement ReasonQAN;
-	// WebElements for Start Date and End Date fields
 	@FindBy(xpath = "//lightning-input[@data-name='StartDate']//input[@placeholder='Select a date from the calendar picker.']")
 	WebElement startDateField;
-
 	@FindBy(xpath = "//lightning-input[@data-name='EndDate']//input[@placeholder='Select a date from the calendar picker.']")
 	WebElement endDateField;
 	@FindBy(xpath = "//input[@placeholder='Enter MRB Reference Number']")
@@ -65,18 +64,13 @@ public class Quality {
 	// Method to select start and end dates
 	public void selectDateRange() {
 		// Get today's date
-
 		LocalDate currentDate = LocalDate.now();
-
 		// Calculate the start date as one year ago from today
 		LocalDate startDate = currentDate.minusYears(1);
-
 		// Calculate the end date as one year from today
 		LocalDate endDate = currentDate.plusYears(1);
-
 		// Define the date format as 'MMM d, yyyy'
 		DateTimeFormatter formatter = DateTimeFormatter.ofPattern("MMM d, yyyy");
-
 		// Format the start and end dates
 		String formattedStartDate = startDate.format(formatter); // One year ago
 		String formattedEndDate = endDate.format(formatter); // One year from now
@@ -84,7 +78,6 @@ public class Quality {
 		commonclick.scrollAndClick(startDateField);
 		startDateField.clear();
 		startDateField.sendKeys(formattedStartDate);
-
 		// Enter the formatted end date into the End Date field
 		commonclick.scrollAndClick(endDateField);
 		endDateField.clear();

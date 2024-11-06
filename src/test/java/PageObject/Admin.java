@@ -43,6 +43,12 @@ public class Admin {
 
 	}
 
+	
+	/*
+	 *  Authur: Omkar Yadav
+	 *  Change:Admin Case Creation
+	 *  Description:
+	 */
 	@FindBy(xpath = "//span[@part='label'][normalize-space()='Admin']/..//span[@part='indicator']")
 	WebElement SelectServiceTypeAdmin;
 	@FindBy(xpath = "//span[@title='Duplicate order']")
@@ -129,8 +135,6 @@ public class Admin {
 		commonclick.scrollAndClick(SelectLostShipment);
 	}
 
-
-
 	public void EnterCIRS(String sting) {
 		commonclick.scrollAndClick(EnterCIRS);
 		EnterCIRS.sendKeys(sting);
@@ -139,7 +143,7 @@ public class Admin {
 	public void EnterCIRS() {
 
 		// Path to the Excel file
-		String excelFilePath = "C:\\Users\\oyadavx\\Downloads\\MMCPN_BulkUploadTemplate (1) - Copy - Copy.xlsx";
+		String excelFilePath = "C:\\Users\\oyadavx\\git\\Intel_ISVC_R4C\\Intel_ISVC_R4C\\src\\test\\java\\TestData\\Automation Test data.xlsx";
 
 		try {
 			FileInputStream excelFile = new FileInputStream(new File(excelFilePath));
@@ -204,7 +208,7 @@ public class Admin {
 	public void EnterSO() {
 
 		// Path to the Excel file
-		String excelFilePath = "C:\\Users\\oyadavx\\Downloads\\MMCPN_BulkUploadTemplate (1) - Copy - Copy.xlsx";
+		String excelFilePath = "C:\\Users\\oyadavx\\git\\Intel_ISVC_R4C\\Intel_ISVC_R4C\\src\\test\\java\\TestData\\Automation Test data.xlsx";
 
 		try {
 			FileInputStream excelFile = new FileInputStream(new File(excelFilePath));
@@ -267,7 +271,7 @@ public class Admin {
 	public void enterPOnumber() {
 
 		// Path to the Excel file
-		String excelFilePath = "C:\\Users\\oyadavx\\Downloads\\MMCPN_BulkUploadTemplate (1) - Copy - Copy.xlsx";
+		String excelFilePath = "C:\\Users\\oyadavx\\git\\Intel_ISVC_R4C\\Intel_ISVC_R4C\\src\\test\\java\\TestData\\Automation Test data.xlsx";
 
 		try {
 			FileInputStream excelFile = new FileInputStream(new File(excelFilePath));
@@ -331,7 +335,7 @@ public class Admin {
 
 	public void EnterCPNyhroughExcel() {
 		// Path to the Excel file
-		String excelFilePath = "C:\\Users\\oyadavx\\Downloads\\MMCPN_BulkUploadTemplate (1) - Copy - Copy.xlsx";
+		String excelFilePath = "C:\\Users\\oyadavx\\git\\Intel_ISVC_R4C\\Intel_ISVC_R4C\\src\\test\\java\\TestData\\Automation Test data.xlsx";
 
 		try {
 			FileInputStream excelFile = new FileInputStream(new File(excelFilePath));

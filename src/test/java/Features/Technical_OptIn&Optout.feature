@@ -1,6 +1,6 @@
 Feature: R4C OptInAndOut_ Technical
-@TestcaseNo-1
-@highpriority
+@TestcaseTOIOONo1
+@SanityTOIOO
  Scenario: Verify the Opt-in & Opt-out functionality for ASMO/APAC/PROC/IJKK GEO's by clicking on "Cancel" button in popup 
    Given User Launch Chrome browser
    When User open URL 
@@ -17,8 +17,8 @@ Feature: R4C OptInAndOut_ Technical
    	And Close browser
    	 
  
- @TestcaseNo-2 
- 
+@TestcaseTOIOONo2
+ @SanityTOIOO
  Scenario: Verify the Opt-in & Opt-out functionality for ASMO/APAC/PROC/IJKK GEO's by clicking on "Ok" button in popup 
    Given User Launch Chrome browser
    When User open URL 
@@ -35,7 +35,8 @@ Feature: R4C OptInAndOut_ Technical
    And Close browser
   
  
-@TestcaseNo-3-Pass
+@TestcaseTOIOONo3
+@SanityTOIOO
  Scenario:  Verify the Opt-in & Opt-out functionality for GEO as EMEA
     Given User Launch Chrome browser
    When User open URL 

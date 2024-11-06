@@ -5,8 +5,8 @@ Background:
    Then User Enter Email Address and pass PassWord
    And Click on login
    
-@TestCaseNo1
-@Sanity
+@TestCaseQSFLNo1
+@SanityQSFL
 Scenario: Verify the Save for Later functionality in Request Header details
    And Enter text global excel
    And Click on the New R4C case creation button
@@ -14,7 +14,7 @@ Scenario: Verify the Save for Later functionality in Request Header details
    #And Select Service Type Quality and Click create button
   # And Enter SoldTo and select "6006683685" 
    And Select Remedy and reason
-   And Select All other detils
+   And Select All other details
    And Select Ship To contact
    And Select RCA address first
    And Select Return customer contact first
@@ -26,8 +26,8 @@ Scenario: Verify the Save for Later functionality in Request Header details
    And Close browser
    
    
-@TestCaseNo2
-@Sanity
+@TestCaseQSFLNo2
+@SanityQSFL
 Scenario: Verify the Save for Later functionality Search/Upload Line item page
    And Enter text global excel
    And Click on the New R4C case creation button
@@ -35,7 +35,7 @@ Scenario: Verify the Save for Later functionality Search/Upload Line item page
   # And Select Service Type Quality and Click create button
   # And Enter SoldTo and select "6006683685" 
    And Select Remedy and reason
-   And Select All other detils
+   And Select All other details
    And Select Ship To contact
    And Select RCA address first
    And Select Return customer contact first
@@ -51,16 +51,16 @@ Scenario: Verify the Save for Later functionality Search/Upload Line item page
   And Print Case No into Console SR
    And Close browser
    
-@TestCaseNo3
-@Sanity
-Scenario: Verify the Save for Later functionality Search/Upload Line item page
+@TestCaseQSFLNo3
+@SanityQSFL
+Scenario: Verify the Save for Later functionality Warranty Entitlement check page
    And Enter text global excel
    And Click on the New R4C case creation button
    And Select Service Type Quality and Click create button enter Sold through Excel file
   # And Select Service Type Quality and Click create button
    #And Enter SoldTo and select "6006683685" 
    And Select Remedy and reason
-   And Select All other detils
+   And Select All other details
    And Select Ship To contact
    And Select RCA address first
    And Select Return customer contact first
@@ -80,8 +80,8 @@ Scenario: Verify the Save for Later functionality Search/Upload Line item page
    And Close browser
    
    
-@TestCaseNo4
-@Sanity
+@TestCaseQSFLNo4
+@SanityQSFL
 Scenario: Verify the Save for Later functionality Product Validation/PO History page
    And Enter text global excel
    And Click on the New R4C case creation button
@@ -89,7 +89,7 @@ Scenario: Verify the Save for Later functionality Product Validation/PO History 
   # And Select Service Type Quality and Click create button
    #And Enter SoldTo and select "6006683685" 
    And Select Remedy and reason
-   And Select All other detils
+   And Select All other details
    And Select Ship To contact
    And Select RCA address first
    And Select Return customer contact first
@@ -113,8 +113,8 @@ Scenario: Verify the Save for Later functionality Product Validation/PO History 
    And Close browser
    
    
- @TestCaseNo5
- @Sanity
+ @TestCaseQSFLNo5
+ @SanityQSFL
 Scenario: Verify the Save for Later functionality Credit Price Validation page
    And Enter text global excel
    And Click on the New R4C case creation button
@@ -122,7 +122,7 @@ Scenario: Verify the Save for Later functionality Credit Price Validation page
    #And Select Service Type Quality and Click create button
    #And Enter SoldTo and select "6006683685" 
    And Select Remedy and reason
-   And Select All other detils
+   And Select All other details
    And Select Ship To contact
    And Select RCA address first
    And Select Return customer contact first

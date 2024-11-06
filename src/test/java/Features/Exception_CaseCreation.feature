@@ -4,8 +4,8 @@ Feature: Exception Case Creation
    #When User open URL 
    #Then User Enter Email Address and pass PassWord
    #And Click on login
-@TestCaseNo1
-@Sanity
+@TestCaseECCNo1
+@SanityECC
 Scenario: Verify the Case creation for Service Type as Exception & Remedy as Credit & Return Reason as Exception Return using PO Search
 Given User Launch Chrome browser
    When User open URL 
@@ -14,7 +14,7 @@ Given User Launch Chrome browser
    And Enter text global excel
    And Click on the New R4C case creation button
    And Select Service Type Exception and Click create button enter Sold through Excel file
-   And Select All other detils
+   And Select All other details
    And Select Ship To contact
    And Select credit
     And Select Exception Return Reason
@@ -40,8 +40,8 @@ Given User Launch Chrome browser
     
     
     
-@TestCaseNo2
-@Sanity
+@TestCaseECCNo2
+@SanityECC
 Scenario: Verify the Case creation for Service Type as Exception & Remedy as Credit & Return Reason as GRL Exception Return using SO Search
 Given User Launch Chrome browser
    When User open URL 
@@ -50,7 +50,7 @@ Given User Launch Chrome browser
    And Enter text global excel
    And Click on the New R4C case creation button
    And Select Service Type Exception and Click create button enter Sold through Excel file
-   And Select All other detils
+   And Select All other details
    And Select Ship To contact
    And Select credit 
    And Select GRL Exception Reason
@@ -76,8 +76,8 @@ Given User Launch Chrome browser
    And Close browser
     
     
-@TestCaseNo3
-@Sanity
+@TestCaseECCNo3
+@SanityECC
  Scenario: Verify the Case creation for Service Type as Exception & Remedy as Credit & Return Reason as Quarterly Exception  using MMCPN Bulk Upload
 Given User Launch Chrome browser
    When User open URL 
@@ -86,7 +86,7 @@ Given User Launch Chrome browser
    And Enter text global excel
    And Click on the New R4C case creation button
    And Select Service Type Exception and Click create button enter Sold through Excel file
-   And Select All other detils
+   And Select All other details
    And Select Ship To contact
    And Select credit
    And Select Quarterly Exception
@@ -108,7 +108,7 @@ Given User Launch Chrome browser
  And Print Case No into Console SR
  And Close browser
  
- @TestCaseNoPOC
+ 
  @Sanity
     Scenario: POC
 Given User Launch Chrome browser
@@ -117,8 +117,8 @@ Given User Launch Chrome browser
    And Click on login
  
  
- @TestCaseNo4
- @Sanity
+ @TestCaseECCNo4
+ @SanityECC
 Scenario: Verify the Case creation for Service Type as Exception & Remedy as NPR-Credit & Return Reason as GRL Exception using CPN Search
 Given User Launch Chrome browser
    When User open URL 
@@ -127,7 +127,7 @@ Given User Launch Chrome browser
    And Enter text global excel
    And Click on the New R4C case creation button
    And Select Service Type Exception and Click create button enter Sold through Excel file
-   And Select All other detils
+   And Select All other details
    And Select Ship To contact
    And Select credit NPR
     And Select GRL Exception Reason
@@ -150,8 +150,8 @@ Given User Launch Chrome browser
  And Print Case No into Console SR
  And Close browser
  
- @TestCaseNo5
- @Sanity
+ @TestCaseECCNo5
+ @SanityECC
 Scenario: Verify the Case creation for Service Type as Exception & Remedy as NPR-Credit & Return Reason as GRL Exception using MM Search
 Given User Launch Chrome browser
    When User open URL 
@@ -160,7 +160,7 @@ Given User Launch Chrome browser
    And Enter text global excel
    And Click on the New R4C case creation button
    And Select Service Type Exception and Click create button enter Sold through Excel file
-   And Select All other detils
+   And Select All other details
    And Select Ship To contact
    And Select credit NPR
     And Select GRL Exception Reason
@@ -183,8 +183,8 @@ Given User Launch Chrome browser
  And Close browser
  
  
-  @TestCaseNo6
-  @Sanity
+  @TestCaseECCNo6
+  @SanityECC
 Scenario: Verify the Case creation for Service Type as Exception & Remedy as Credit & Return Reason as GRL Exception Return using OPN Search
 Given User Launch Chrome browser
    When User open URL 
@@ -193,7 +193,7 @@ Given User Launch Chrome browser
    And Enter text global excel
    And Click on the New R4C case creation button
    And Select Service Type Exception and Click create button enter Sold through Excel file
-   And Select All other detils
+   And Select All other details
    And Select Ship To contact
    And Select credit
     And Select GRL Exception Reason
@@ -201,8 +201,8 @@ Given User Launch Chrome browser
    And Click on next
    
  
- @TestCaseNo7
- @Sanity
+ @TestCaseECCNo7
+ @SanityECC
 Scenario: Verify the PO Search functionality
 Given User Launch Chrome browser
    When User open URL 
@@ -211,7 +211,7 @@ Given User Launch Chrome browser
    And Enter text global excel
    And Click on the New R4C case creation button
    And Select Service Type Exception and Click create button enter Sold through Excel file
-   And Select All other detils
+   And Select All other details
    And Select Ship To contact
    And Select credit
     And Select Exception Return Reason
@@ -228,8 +228,8 @@ Given User Launch Chrome browser
    And Close browser
  
  
- @TestCaseNo8
- @Sanity
+ @TestCaseECCNo8
+ @SanityECC
 Scenario: Verify the SO Search functionality
 Given User Launch Chrome browser
    When User open URL 
@@ -238,7 +238,7 @@ Given User Launch Chrome browser
    And Enter text global excel
    And Click on the New R4C case creation button
    And Select Service Type Exception and Click create button enter Sold through Excel file
-   And Select All other detils
+   And Select All other details
    And Select Ship To contact
    And Select credit 
    And Select GRL Exception Reason
@@ -255,8 +255,8 @@ Given User Launch Chrome browser
    And Close browser
  
  
- @TestCaseNo9
- @Sanity
+ @TestCaseECCNo9
+ @SanityECC
 Scenario: Verify the MM Search functionality
 Given User Launch Chrome browser
    When User open URL 
@@ -265,7 +265,7 @@ Given User Launch Chrome browser
    And Enter text global excel
    And Click on the New R4C case creation button
    And Select Service Type Exception and Click create button enter Sold through Excel file
-   And Select All other detils
+   And Select All other details
    And Select Ship To contact
    And Select credit
     And Select GRL Exception Reason
@@ -281,8 +281,8 @@ Given User Launch Chrome browser
    And Close browser
  
  
-  @TestCaseNo10
-  @Sanity
+  @TestCaseECCNo10
+  @SanityECC
 Scenario: Verify the CPN Search functionality
 Given User Launch Chrome browser
    When User open URL 
@@ -291,7 +291,7 @@ Given User Launch Chrome browser
    And Enter text global excel
    And Click on the New R4C case creation button
    And Select Service Type Exception and Click create button enter Sold through Excel file
-   And Select All other detils
+   And Select All other details
    And Select Ship To contact
    And Select credit
     And Select GRL Exception Reason
@@ -308,8 +308,8 @@ Given User Launch Chrome browser
  And click on search button
  And Close browser
  
-  @TestCaseNo12
-  @Sanity
+  @TestCaseECCNo11
+  @SanityECC
     Scenario: Verify the MMCPN Bulk Upload functionality
 Given User Launch Chrome browser
    When User open URL 
@@ -318,7 +318,7 @@ Given User Launch Chrome browser
    And Enter text global excel
    And Click on the New R4C case creation button
    And Select Service Type Exception and Click create button enter Sold through Excel file
-   And Select All other detils
+   And Select All other details
    And Select Ship To contact
    And Select credit
    And Select Quarterly Exception
@@ -334,8 +334,8 @@ Given User Launch Chrome browser
    And Close browser
    
   
- @TestCaseNo13
- @Sanity
+ @TestCaseECCNo12
+ @SanityECC
 Scenario: Verify the PO History functionality for Remedy as Credit
 Given User Launch Chrome browser
    When User open URL 
@@ -344,7 +344,7 @@ Given User Launch Chrome browser
    And Enter text global excel
    And Click on the New R4C case creation button
    And Select Service Type Exception and Click create button enter Sold through Excel file
-   And Select All other detils
+   And Select All other details
    And Select Ship To contact
    And Select credit
     And Select GRL Exception Reason
@@ -359,8 +359,8 @@ Given User Launch Chrome browser
    And Click on search button after Entering MM Number
    And Close browser
    
-   @TestCaseNo14
-   @Sanity
+   @TestCaseECCNo13
+   @SanityECC
 Scenario: Verify the PO History functionality for Remedy as NPR-Credit
 Given User Launch Chrome browser
    When User open URL 
@@ -369,7 +369,7 @@ Given User Launch Chrome browser
    And Enter text global excel
    And Click on the New R4C case creation button
    And Select Service Type Exception and Click create button enter Sold through Excel file
-   And Select All other detils
+   And Select All other details
    And Select Ship To contact
    And Select credit NPR
     #And Select GRL Exception Reason
@@ -387,8 +387,8 @@ Given User Launch Chrome browser
  And Clickon PO History check button
  And Close browser
  
-  @TestCaseNo15
-  @Sanity
+  @TestCaseECCNo14
+  @SanityECC
 Scenario: Verify the Warranty Entitlement Check functionality with ULT
 Given User Launch Chrome browser
    When User open URL 
@@ -397,7 +397,7 @@ Given User Launch Chrome browser
    And Enter text global excel
    And Click on the New R4C case creation button
    And Select Service Type Exception and Click create button enter Sold through Excel file
-   And Select All other detils
+   And Select All other details
    And Select Ship To contact
    And Select credit NPR
     #And Select GRL Exception Reason
@@ -412,8 +412,8 @@ Given User Launch Chrome browser
  When Click On Warranty Entitlement Check
  And Close browser
  
- @TestCaseNo16
- @Sanity
+ @TestCaseECCNo15
+ @SanityECC
     Scenario: Verify the Price Override functionality with <=25K 
 Given User Launch Chrome browser
    When User open URL 
@@ -422,7 +422,7 @@ Given User Launch Chrome browser
    And Enter text global excel
    And Click on the New R4C case creation button
    And Select Service Type Exception and Click create button enter Sold through Excel file
-   And Select All other detils
+   And Select All other details
    And Select Ship To contact
    And Select credit
    And Select GRL Exception Reason
@@ -445,8 +445,8 @@ Given User Launch Chrome browser
  And Print Case No into Console SR
  And Close browser
  
- @TestCaseNo17
- @Sanity
+ @TestCaseECCNo16
+ @SanityECC
     Scenario: Verify the Price Override functionality with >=25K 
 Given User Launch Chrome browser
    When User open URL 
@@ -455,7 +455,7 @@ Given User Launch Chrome browser
    And Enter text global excel
    And Click on the New R4C case creation button
    And Select Service Type Exception and Click create button enter Sold through Excel file
-   And Select All other detils
+   And Select All other details
    And Select Ship To contact
    And Select credit
    And Select GRL Exception Reason
@@ -482,8 +482,8 @@ Given User Launch Chrome browser
    And Close browser
    
    
-   @TestCaseNo18
-   @Sanity
+   @TestCaseECCNo17
+   @SanityECC
 Scenario: Verify the Normal Pending Approval 
 Given User Launch Chrome browser
    When User open URL 
@@ -492,7 +492,7 @@ Given User Launch Chrome browser
    And Enter text global excel
    And Click on the New R4C case creation button
    And Select Service Type Exception and Click create button enter Sold through Excel file
-   And Select All other detils
+   And Select All other details
    And Select Ship To contact
    And Select credit
     And Select Exception Return Reason

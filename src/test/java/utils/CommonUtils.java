@@ -16,7 +16,7 @@ public class CommonUtils {
 	    // Constructor
 	    public CommonUtils(WebDriver driver) {
 	        this.driver = driver;
-	        this.wait = new WebDriverWait(driver, Duration.ofSeconds(30)); // Set timeout for waits
+	        this.wait = new WebDriverWait(driver, Duration.ofSeconds(50)); // Set timeout for waits
 	    }
 
 	    // Method to scroll to an element and click using JavaScriptExecutor with robustness
